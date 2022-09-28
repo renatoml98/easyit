@@ -23,6 +23,12 @@ import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
 import twitter from "./twitter.svg";
+import people01 from "./people01.png";
+import people02 from "./people02.png";
+import people03 from "./people03.png";
+import andre from "./andre.jpg";
+import br from "./br.jpg";
+import renato from "./renato.png";
 
 export {
   airbnb,
@@ -50,4 +56,7 @@ export {
   people01,
   people02,
   people03,
+  andre,
+  br,
+  renato,
 };
