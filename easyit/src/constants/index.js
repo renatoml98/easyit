@@ -55,7 +55,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "You´re not as bad as you think, you are worse. - Leonado Marrão (Profeta)",
+      "You´re not as bad as you think, you are worse. - Leonado Marrão (Prophet)",
     name: "Steve Mark",
     title: "Akatsuki member",
     img: br,
