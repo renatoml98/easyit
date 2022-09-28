@@ -49,7 +49,7 @@ export const feedback = [
     content:
       "Without my cookies... im just a monster.",
     name: "André Franco",
-    title: "C",
+    title: "Co-Founder",
     img: andre,
   },
   {
@@ -57,7 +57,7 @@ export const feedback = [
     content:
       "You´re not as bad as you think, you are worse.",
     name: "Leonado Marrão",
-    title: "E",
+    title: "Co-Founder",
     img: br,
   },
   {
@@ -65,7 +65,7 @@ export const feedback = [
     content:
       "People call me trash, why shouldn't i act like it?",
     name: "Renato Lima",
-    title: "O",
+    title: "Co-Founder",
     img: renato,
   },
 ];
