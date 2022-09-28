@@ -27,11 +27,11 @@ const Hero = () => (
           </div>
         </div>
         <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px]
-          leading-[75px] w-full'>Payment Method
+          leading-[75px] w-full'>Management Software
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by building credit, 
-        earning rewards and saving money. But with hundreds of credit cards on the market.
+        With a modern, friendly-user and well structured software, it's much easier to manage and maintain your company.
+
         </p>
       </div>
 
