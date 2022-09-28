@@ -49,7 +49,7 @@ export const feedback = [
     content:
       "Without my cookies... im just a monster. - André Franco, RN (Real Nigga)",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Sonho da sogra",
     img: andre,
   },
   {
@@ -65,7 +65,7 @@ export const feedback = [
     content:
       "People call me trash, why shouldn't i act like it? - Renato Lima (Professional Bald Man)",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Feminist",
     img: renato,
   },
 ];
