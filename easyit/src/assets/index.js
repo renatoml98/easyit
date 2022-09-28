@@ -23,6 +23,7 @@ import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
 import twitter from "./twitter.svg";
+import cuboPequeno from "./cuboPequeno.png"
 
 export {
   airbnb,
@@ -50,4 +51,5 @@ export {
   people01,
   people02,
   people03,
+  cuboPequeno
 };

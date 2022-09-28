@@ -1,33 +1,30 @@
 import React from 'react';
-import { discount, robot } from '../assets';
+import { discount, robot, cuboPequeno } from '../assets';
 import styles from '../style';
-import GetStarted from './GetStarted';
 
 const Hero = () => (
     <section id="home" className={`flex md:flex-row flex-col 
     ${styles.paddingY}`}>
 
-      <div  className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-        <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
-          <img src={discount} alt="discount" className='w-[32px] h-[32px]'/>
-          <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>20%</span> Discount For {" "}
+      <div id="LeftSide" className={`flex-2  ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+        <div className='flex flex-row items-center py-[6px] px-2 bg-discount-gradient rounded-[10px] mb-2'>
+          <img src={cuboPequeno} alt="cuboPequeno" className='w-[32px] h-[32px] order-2 ml-2'/>
+          <p className={`${styles.paragraph} ml-2 order-1`}>
+            <span className='text-white'>30%</span> Discount For {" "}
             <span className='text-white'>1 Mounth</span> Account
           </p>
         </div>
 
-        <div id="LeftSide" className='flex flex-row justify-between items-center w-full'>
+        <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px]
           leading-[75px]'>
-            The Next <br className="sm:block hidden"/> {" "}
-            <span className='text-gradient'>Generation</span>{" "}
+            Leading <br className="sm:block hidden"/> {" "}
+            <span className='text-gradient'>Innovative</span>{" "}
           </h1>
-          <div className='ss:flex hidden md:mr-4 mr-0'>
-            <GetStarted />
-          </div>
+          
         </div>
         <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px]
-          leading-[75px] w-full'>Management Software
+          leading-[75px] w-'>Management Software
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         With a modern, friendly-user and well structured software, it's much easier to manage and maintain your company.
@@ -41,9 +38,6 @@ const Hero = () => (
         <div className='absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient'></div>
         <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient'></div>
 
-        <div className={`ss:hidden ${styles.flexCenter}`}>
-          <GetStarted/>
-        </div>
       </div>
       </section>
   )
