@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Without my cookies... im just a monster. - André Franco, RN (Real Nigga)",
-    name: "Herman Jensen",
-    title: "Sonho da sogra",
+      "Without my cookies... im just a monster.",
+    name: "André Franco",
+    title: "C",
     img: andre,
   },
   {
     id: "feedback-2",
     content:
-      "You´re not as bad as you think, you are worse. - Leonado Marrão (Prophet)",
-    name: "Steve Mark",
-    title: "Akatsuki member",
+      "You´re not as bad as you think, you are worse.",
+    name: "Leonado Marrão",
+    title: "E",
     img: br,
   },
   {
     id: "feedback-3",
     content:
-      "People call me trash, why shouldn't i act like it? - Renato Lima (Professional Bald Man)",
-    name: "Kenn Gallagher",
-    title: "Feminist",
+      "People call me trash, why shouldn't i act like it?",
+    name: "Renato Lima",
+    title: "O",
     img: renato,
   },
 ];
