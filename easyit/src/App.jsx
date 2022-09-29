@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { useInView } from 'react-intersection-observer';
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Hero, Navbar, Stats, Testimonials } from "./components";
 import styles from './style';
 
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Hero, Navbar, Stats, Testimonials } from "./components";
+function App() {
 
-const App = () => (
+    const { ref: myRef, inView: myElementIsVisible} = useInView();
+
+    return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
@@ -23,7 +27,7 @@ const App = () => (
           <Business/>
           <Billing/>
           <CardDeal/>
-          <Testimonials/>
+          <Testimonials forwardedRef={myRef} isVisible={myElementIsVisible}/>
           <Clients/>
           <CTA/>
           <Footer/>
@@ -32,5 +36,6 @@ const App = () => (
 
     </div>
   );
+}
 
 export default App
