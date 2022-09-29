@@ -22,24 +22,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: send,
+    title: "Adaptable",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Each client has their own idea of ​​the product they are looking for, we adapt our work according to their needs.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: star,
+    title: "Simplicity",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Data managment can present a complexity, its important to assure you have the easiest way of consulting it.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: shield,
+    title: "Security",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Fear of losing data is always a big concern, we take proactive steps to make sure your information is secure.",
   },
 ];
 

@@ -13,9 +13,9 @@ const Testimonials = () => (
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[80%]`}>
-        At EasyIT we help develop innovative solutions to simplify operations that wouldn´t otherwise be considered efficient, we build integrated solutions that revolutionize the way processes are managed.
+        Our team is composed of software engineers always focused on surpassing everything we do.
         <br className="sm:block hidden" />
-        We are a team of software engineers always focused on surpassing everything we do.
+        With a wide range of knowledge in diverse areas, we strive for excellence in whatever challenge in presented to us.
         </p>
       </div>
     </div>
