@@ -1,7 +1,7 @@
-import React from 'react'
-import { logo } from '../assets'
-import { footerLinks, socialMedia } from '../constants'
-import styles from '../style'
+import React from 'react';
+import { logo } from '../assets';
+import { footerLinks, socialMedia } from '../constants';
+import styles from '../style';
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -11,9 +11,9 @@ const Footer = () => (
         <p className={`${styles.paragraph} mt-4 max-w-[400px]`}>Leading innovative solutions that simplify work management operations.</p>
       </div>
 
-      <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
-        {footerLinks.map((footerLink) => (
-          <div key={footerLink.key} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
+      <div className='mt-10 flex-[1.5] w-full'>
+        {footerLinks.map((footerLink, index) => (
+          <div key={index} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
             <h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white'>
               {footerLink.title}
             </h4>
@@ -29,16 +29,10 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]'>
-      <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-white'>
-        2021 HooBank. All Rights Reserved.
+    <div className='w-full pt-6 border-t-[1px] border-t-[#3F3E45]'>
+      <p className='font-poppins font-normal text-[18px] leading-[27px] text-white'>
+        2022 EasyIT. All Rights Reserved.
       </p>
-
-      <div className='flex flex-row md:mt-0 mt-6'>
-        {socialMedia.map((social, index) => (
-          <img key={social.id} src={social.icon} alt={social.id} className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.lenght - 1 ? 'mr-6' : 'mr-0'}`} />
-        ))}
-      </div>
     </div>
   </section>
 )
