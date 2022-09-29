@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      animation: {
+        'bounceshort': 'bounce 1s',
+      },
       colors: {
         primary: "#00040f",
         secondary: "#00f6ff",
