@@ -21,12 +21,12 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import quotes from "./quotes.svg";
-import renato from "./renato.png";
 import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
 import twitter from "./twitter.svg";
+import ren from "./ren.png";
 
 export {
   airbnb,
@@ -57,6 +57,6 @@ export {
   cuboPequeno,
   andre,
   br,
-  renato,
+  ren,
 };
 

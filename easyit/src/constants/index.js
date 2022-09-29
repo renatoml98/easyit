@@ -1,4 +1,4 @@
-import { andre, br, renato, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { andre, br, ren, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -66,7 +66,7 @@ export const feedback = [
       "People call me trash, why shouldn't i act like it?",
     name: "Renato Lima",
     title: "Co-Founder",
-    img: renato,
+    img: ren,
   },
 ];
 
