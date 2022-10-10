@@ -8,7 +8,6 @@ import br from "./br.jpg";
 import card from "./card.png";
 import close from "./close.svg";
 import coinbase from "./coinbase.png";
-import cuboPequeno from "./cuboPequeno.png";
 import discount from "./Discount.svg";
 import dropbox from "./dropbox.png";
 import facebook from "./facebook.svg";
