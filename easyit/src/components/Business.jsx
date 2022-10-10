@@ -21,7 +21,7 @@ const FeatureCard = ({ icon, title, content, index}) => (
  
 const Business = () => {
   return (
-    <section id="features" className={layout.section}>
+    <section id="aboutus" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Get to know us.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
