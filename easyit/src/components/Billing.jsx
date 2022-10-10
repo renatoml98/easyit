@@ -11,8 +11,8 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Enterprise Resource Planning.</h2>
-      <p className={`${styles.paragraph} max-w-[80%] mt-5`}>ERP helps you manage your data effectively, enabling you to solve problems faster, mitigate risks, gain a competitive advantage and a fresh perspective on your company, improve productivity and quality of work, among many other benefits.</p>
+      <h2 className={styles.heading2}>Customer Relationship Management.</h2>
+      <p className={`${styles.paragraph} max-w-[80%] mt-5`}>CRM helps you manage your data effectively, enabling you to solve problems faster, mitigate risks, gain a competitive advantage and a fresh perspective on your company, improve productivity and quality of work, among many other benefits.</p>
     
       {/* <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
         <img src={apple} alt="apple_store" className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer' />
