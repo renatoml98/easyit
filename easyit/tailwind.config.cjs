@@ -7,6 +7,9 @@ module.exports = {
       animation: {
         'bounceshort': 'bounce 1s',
       },
+      flex: {
+        '2': '2 2 0%'
+      },
       colors: {
         primary: "#00040f",
         secondary: "#00f6ff",
@@ -17,11 +20,12 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
     },
+    
     screens: {
       xs: "480px",
       ss: "620px",
       sm: "768px",
-      md: "1060px",
+      md: "1024px",
       lg: "1200px",
       xl: "1700px",
     },

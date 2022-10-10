@@ -11,13 +11,11 @@ const App = () => (
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexCenter} `}>
-        <div className={`${styles.boxWidth}`}>
+      <div className={`bg-primary ${styles.flexCenter} lg:pl-16`}>
           <Hero/>
-        </div>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter} `}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter} w-full`}>
         <div className={`${styles.boxWidth}`}>
           <Stats/>
           <Business/>

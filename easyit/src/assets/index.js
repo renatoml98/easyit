@@ -27,6 +27,8 @@ import shield from "./Shield.svg";
 import star from "./Star.svg";
 import twitter from "./twitter.svg";
 import ren from "./ren.png";
+import cuboPequeno from "./cuboPequeno.png"
+import easyitgif from "./easyitgif.gif"
 
 export {
   airbnb,
@@ -58,5 +60,6 @@ export {
   andre,
   br,
   ren,
+  easyitgif
 };
 
